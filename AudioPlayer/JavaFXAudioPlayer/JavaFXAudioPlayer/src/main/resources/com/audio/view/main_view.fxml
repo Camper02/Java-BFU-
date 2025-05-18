@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<VBox spacing="20" xmlns:fx="http://javafx.com/fxml" fx:controller="com.audio.controller.MainController" alignment="CENTER" style="-fx-padding: 200;">
+    <TextField fx:id="trackNameField" promptText="Название трека" />
+    <Button fx:id="playButton" text="▶ Воспроизвести" />
+    <Button fx:id="stopButton" text="■ Остановить" />
+    <Button fx:id="analysisButton" text="📊 Анализ трека" />
+</VBox>
+
+ox>
+
+
